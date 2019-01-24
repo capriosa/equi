@@ -43,6 +43,7 @@ const list = items.map((item, index) =>
     <div className='col col-md-10'>
     <AccordionItemTitle>
         <h3>{item.get('title')}</h3>
+        <div>{item.get('teaser')}</div>
     </AccordionItemTitle>
     <AccordionItemBody>
         <p>{item.get('text')}</p>

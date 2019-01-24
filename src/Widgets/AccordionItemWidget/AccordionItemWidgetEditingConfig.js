@@ -7,6 +7,9 @@ Scrivito.provideEditingConfig('AccordionItemWidget', {
         title: {
             title: 'Title',
         },
+        teaser: {
+            title: 'Teaser',
+        },
         text: {
             title: 'Text',
         },
@@ -20,6 +23,7 @@ Scrivito.provideEditingConfig('AccordionItemWidget', {
     },
     properties: [
         'title',
+        'teaser',
         'text',
         'icon',
         'image'
