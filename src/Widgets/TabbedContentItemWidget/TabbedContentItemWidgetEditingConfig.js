@@ -1,7 +1,7 @@
 import * as Scrivito from 'scrivito';
 
-Scrivito.provideEditingConfig('AccordionItemWidget', {
-    title: 'Accordion Item',
+Scrivito.provideEditingConfig('TabbedContentItemWidget', {
+    title: 'Block',
     attributes: {
 
         title: {
@@ -10,19 +10,14 @@ Scrivito.provideEditingConfig('AccordionItemWidget', {
         text: {
             title: 'Text',
         },
-        icon: {
-            title: 'Icon',
+        tags: {
+            title: 'Tags',
         },
-        image: {
-            title: 'Image',
-        },
-
     },
     properties: [
         'title',
         'text',
-        'icon',
-        'image'
+        'tags',
     ],
 
 });
