@@ -6,7 +6,6 @@ const AccordionItemWidget = Scrivito.provideWidgetClass('AccordionItemWidget', {
         title: 'string',
         teaser: 'string',
         text: 'html',
-        icon: 'reference',
         image: 'reference',
 
     },

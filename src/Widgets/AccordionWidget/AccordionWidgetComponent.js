@@ -36,20 +36,34 @@ class AccordionComponent extends React.Component {
 const list = items.map((item, index) =>
 
 <AccordionItem key={index}>
-    <div className='row'>
-    <div className='col col-md-2'>
+
+
+
+
+    <AccordionItemTitle>
+      <div className='row'>
+
+      <div className={`col col-md-3 item-${index}`}>
     <Scrivito.ImageTag content={ item.get('icon') }  />
     </div>
-    <div className='col col-md-10'>
-    <AccordionItemTitle>
+    <div className='col col-md-9'>
         <h3>{item.get('title')}</h3>
         <div>{item.get('teaser')}</div>
+      </div>
+      </div>
     </AccordionItemTitle>
     <AccordionItemBody>
+      <div className='row'>
+      <div className='col col-md-3'>
+      <Scrivito.ImageTag content={ item.get('image') }  />
+      </div>
+      <div className='col col-md-9'>
         <p>{item.get('text')}</p>
+      </div>
+      </div>
     </AccordionItemBody>
-    </div>
-    </div>
+
+
 </AccordionItem>
 
 

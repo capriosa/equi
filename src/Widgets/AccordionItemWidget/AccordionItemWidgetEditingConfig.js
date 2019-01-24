@@ -13,9 +13,6 @@ Scrivito.provideEditingConfig('AccordionItemWidget', {
         text: {
             title: 'Text',
         },
-        icon: {
-            title: 'Icon',
-        },
         image: {
             title: 'Image',
         },
@@ -25,7 +22,6 @@ Scrivito.provideEditingConfig('AccordionItemWidget', {
         'title',
         'teaser',
         'text',
-        'icon',
         'image'
     ],
 

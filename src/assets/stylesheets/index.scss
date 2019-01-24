@@ -3331,6 +3331,47 @@ img.cookie-img {
 * Accordion styles
 * ----------------------------------------------
 **/
+
+div[aria-selected="true"]  .row  .item-0 {
+  background: url("../images/1.png") center center no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="false"]  .row  .item-0 {
+  background: url("../images/1g.png") center center  no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="true"]  .row  .item-1 {
+  background: url("../images/2.png") center center no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="false"]  .row  .item-1 {
+  background: url("../images/2g.png") center center  no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="true"]  .row  .item-2 {
+  background: url("../images/3.png") center center no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="false"]  .row  .item-2 {
+  background: url("../images/3g.png") center center  no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="true"]  .row  .item-3 {
+  background: url("../images/4.png") center center no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="false"]  .row  .item-3 {
+  background: url("../images/4g.png") center center  no-repeat;
+  height: 200px;
+}
+
 .u-position-absolute {
   position: absolute;
 }
@@ -3339,31 +3380,20 @@ img.cookie-img {
   position: relative;
 }
 
-.accordion {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
-}
 
-.accordion__item + .accordion__item {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
 
 .accordion__item--has-icon {
   position: relative;
 }
 
 .accordion__title {
-  background-color: #f4f4f4;
+
   color: #444;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
   border: none;
-}
-
-.accordion__title:hover {
-  background-color: #ddd;
 }
 
 .accordion__body {
