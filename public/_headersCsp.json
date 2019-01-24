@@ -1,10 +1,10 @@
 {
   "base-uri": "'none'",
-  "default-src": ["'self'", "data:", "https:", "wss:"],
-  "style-src": ["'self'", "data:", "https:", "wss:", "'unsafe-inline'"],
+  "default-src": ["*","self", "data:", "https:", "wss:","unsafe-eval"],
+  "style-src": ["*","self", "data:", "https:", "wss:", "unsafe-inline"],
   "script-src": [
-    "'self'",
-    "'inline'",
+    "self",
+    "http://localhost:8080",
     "https://api.scrivito.com",
     "https://app.intercom.io",
     "https://assets.scrivito.com",
