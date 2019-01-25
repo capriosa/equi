@@ -37,16 +37,13 @@ const list = items.map((item, index) =>
 
 <AccordionItem key={index}>
 
-
-
-
     <AccordionItemTitle>
       <div className='row'>
 
       <div className={`col col-md-3 item-${index}`}>
     <Scrivito.ImageTag content={ item.get('icon') }  />
     </div>
-    <div className='col col-md-9'>
+    <div className='col col-md-9 accordion-teaser'>
         <h3>{item.get('title')}</h3>
         <div>{item.get('teaser')}</div>
       </div>
@@ -62,12 +59,7 @@ const list = items.map((item, index) =>
       </div>
       </div>
     </AccordionItemBody>
-
-
 </AccordionItem>
-
-
-
 );
 
     return (

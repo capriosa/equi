@@ -3331,6 +3331,15 @@ img.cookie-img {
 * Accordion styles
 * ----------------------------------------------
 **/
+div[aria-selected="true"]  .accordion-teaser {
+  background: url("../images/minus.png") right bottom no-repeat;
+  height: 200px;
+}
+
+div[aria-selected="false"]  .accordion-teaser {
+  background: url("../images/plus.png") right bottom  no-repeat;
+  height: 200px;
+}
 
 div[aria-selected="true"]  .row  .item-0 {
   background: url("../images/1.png") center center no-repeat;
@@ -3400,6 +3409,7 @@ div[aria-selected="false"]  .row  .item-3 {
   padding: 20px;
   display: block;
   animation: fadein 0.35s ease-in;
+  background-color: $theme-greylight;
 }
 
 .accordion__body--hidden {
