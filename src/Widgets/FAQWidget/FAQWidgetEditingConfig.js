@@ -1,6 +1,6 @@
 import * as Scrivito from 'scrivito';
 
-Scrivito.provideEditingConfig('AccordionWidget', {
+Scrivito.provideEditingConfig('FAQWidget', {
     title: 'FAQ',
 
     attributes: {

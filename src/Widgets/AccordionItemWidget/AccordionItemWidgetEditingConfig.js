@@ -1,7 +1,7 @@
 import * as Scrivito from 'scrivito';
 
 Scrivito.provideEditingConfig('AccordionItemWidget', {
-    hideInSelectionDialogs: true,
+   
     title: 'Accordion Item',
     attributes: {
 
