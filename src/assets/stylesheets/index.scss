@@ -3528,9 +3528,21 @@ div[aria-selected="false"]  .row  .item-3 {
   animation-duration: 1.5s;
 }
 
-.stick-nav {
+.sticky-nav {
   position: fixed;
   right: 0;
   top: 150px;
+}
+
+.sticky-nav :nth-child(1) {
+  background: url(../images/sticky_referenzen.png) 0 0 center center;
+}
+
+.sticky-nav :nth-child(2) {
+  background: url(../images/sticky_faq.png) 0 0 center center;
+}
+
+.sticky-nav :nth-child(3) {
+  background: url(../images/sticky_kontakt.png) 0 0 center center;
 }
 
