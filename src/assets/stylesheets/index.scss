@@ -3540,7 +3540,7 @@ div[aria-selected="false"]  .row  .item-3 {
   background: url("../images/sticky_referenzen.png") no-repeat center center;
   width: 74px;
   height: 74px;
-  text-indent: 100000px;
+  text-indent: 10000px;
   display: block;
   margin-bottom: 3px;
 }
@@ -3561,5 +3561,13 @@ div[aria-selected="false"]  .row  .item-3 {
   text-indent: 100000px;
   display: block;
   margin-bottom: 3px;
+}
+
+.sticky-nav a {
+  display: block;
+  width: 74px;
+  height: 74px;
+  z-index: 10001;
+
 }
 
