@@ -1,11 +1,11 @@
 import * as Scrivito from 'scrivito';
 
 Scrivito.provideEditingConfig('AccordionWidget', {
-    title: 'Accordion',
+    title: 'FAQ',
 
     attributes: {
         items: {
-            title: 'Accordion Item',
+            title: 'FAQ Item',
         },
 
     },

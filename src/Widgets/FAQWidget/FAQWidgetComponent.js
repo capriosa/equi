@@ -11,7 +11,7 @@ import {
 
 
 
-class AccordionComponent extends React.Component {
+class FAQComponent extends React.Component {
 
   constructor(props) {
     super(props);
@@ -28,7 +28,7 @@ class AccordionComponent extends React.Component {
     if (!items.length) {
       return (
         <InPlaceEditingPlaceholder center={ true }>
-          Create Accordion Items in widget properties.
+          Create FAQ Items in widget properties.
         </InPlaceEditingPlaceholder>
       );
     }
@@ -41,26 +41,14 @@ const list = items.map((item, index) =>
 
 
     <AccordionItemTitle>
-      <div className='row'>
 
-      <div className={`col col-md-3 item-${index}`}>
-    <Scrivito.ImageTag content={ item.get('icon') }  />
-    </div>
-    <div className='col col-md-9'>
-        <h3>{item.get('title')}</h3>
-        <div>{item.get('teaser')}</div>
-      </div>
-      </div>
+        <h3>{item.get('question')}</h3>
+
     </AccordionItemTitle>
     <AccordionItemBody>
-      <div className='row'>
-      <div className='col col-md-3'>
-      <Scrivito.ImageTag content={ item.get('image') }  />
-      </div>
-      <div className='col col-md-9'>
-        <p>{item.get('text')}</p>
-      </div>
-      </div>
+
+        <p>{item.get('answer')}</p>
+
     </AccordionItemBody>
 
 
@@ -79,6 +67,6 @@ const list = items.map((item, index) =>
 }
 }
 
-Scrivito.provideComponent('AccordionWidget', AccordionComponent);
+Scrivito.provideComponent('FAQWidget', FAQComponent);
 
 
