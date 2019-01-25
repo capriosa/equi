@@ -3533,18 +3533,24 @@ div[aria-selected="false"]  .row  .item-3 {
   right: 0;
   top: 300px;
   list-style: none;
+  z-index: 10000;
 }
 
 .sticky-nav :nth-child(1) {
   background: url("../images/sticky_referenzen.png") no-repeat center center;
-  
+  width: 74px;
+  height: 74px;
 }
 
 .sticky-nav :nth-child(2) {
   background: url("../images/sticky_faq.png") no-repeat center center;
+  width: 74px;
+  height: 74px;
 }
 
 .sticky-nav :nth-child(3) {
   background: url("../images/sticky_kontakt.png") no-repeat center center;
+  width: 74px;
+  height: 74px;
 }
 
