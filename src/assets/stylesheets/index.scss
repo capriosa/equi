@@ -130,6 +130,12 @@ body {
   background: transparent;
 }
 
+.container {
+  font-size: 22px !important;
+  line-height: 1.4em;
+
+}
+
 .container,
 .container-fluid {
   position: relative;
@@ -774,8 +780,8 @@ section.navbar-fixed {
 
 .nav li.active > a,
 .nav li.active > .menu-toggle {
-  background: $primary !important;
-  color: #fff !important;
+  background: #efefef!important;
+  color: $secondary !important;
 }
 
 .nav > li > .dropdown-menu {
