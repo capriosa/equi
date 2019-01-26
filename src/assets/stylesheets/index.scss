@@ -954,7 +954,7 @@ section.navbar-fixed {
 
 .navbar-search-toggle {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 10px;
   display: block;
   height: 75px;
@@ -995,7 +995,7 @@ section.navbar-fixed {
 .search-box {
   opacity: 0;
   position: absolute;
-  top: 20px;
+  top: 35px;
   right: 5px;
   left: 20px;
   z-index: -1;
@@ -1101,6 +1101,7 @@ section.navbar-fixed {
   .navbar-collapse {
     padding: 0;
     border: 0;
+    margin-top: -4px;
   }
 
   .nav > li:hover > ul {
