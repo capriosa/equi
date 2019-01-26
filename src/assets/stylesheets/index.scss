@@ -408,6 +408,11 @@ small,
   padding-left: 0;
   padding-right: 0;
 }
+
+.container .btn-clear {
+  background: url("../images/weiter.png") center center no-repeat;
+}
+
 .btn-clear .fa {
   color: $primary;
 }
