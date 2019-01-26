@@ -409,6 +409,10 @@ small,
   padding-right: 0;
 }
 
+.footer .btn-clear {
+  color: #fff;
+}
+
 .bg-greywhite .btn-clear {
   background: url("../images/weiter.png") center center no-repeat;
   height: 70px;
@@ -712,6 +716,7 @@ footer {
 section.navbar-fixed {
   padding-top: 80px;
   overflow: hidden;
+  background-color: #efefef !important
 }
 
 /* navbar
@@ -763,8 +768,8 @@ section.navbar-fixed {
 }
 .nav > li.open > a,
 .nav > li.open > .menu-toggle {
-  background: $nav-hover !important;
-  color: #fff !important;
+
+  color: $secondary !important;
 }
 
 .nav li.active > a,
@@ -845,7 +850,7 @@ section.navbar-fixed {
 /* .scrolled.bg-dark-image .navbar-brand { background: $logo-dark no-repeat center center / contain; } */
 
 .scrolled .navbar {
-  background: rgba(255, 255, 255, 0.9);
+  background: #efefef;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 .scrolled.bg-dark-image .navbar-nav > li > a {
