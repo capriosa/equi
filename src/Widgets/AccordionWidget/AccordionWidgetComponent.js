@@ -44,7 +44,7 @@ const list = items.map((item, index) =>
     <Scrivito.ImageTag content={ item.get('icon') }  />
     </div>
     <div className='col col-md-9 accordion-teaser'>
-        <h3>{item.get('title')}</h3>
+        <h3 className='primary'>{item.get('title')}</h3>
         <div>{item.get('teaser')}</div>
       </div>
       </div>
