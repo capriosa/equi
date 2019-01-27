@@ -740,13 +740,13 @@ section.navbar-fixed {
 }
 .navbar-brand {
   /* background: $logo-dark no-repeat center center / contain; */
-  width: 200px;
   @extend .text-hide;
-  height: auto;
   padding: 0;
 }
 .navbar-brand img {
   margin: 0;
+  width: 225px;
+  height: 106px;
 }
 
 .nav {
@@ -761,6 +761,7 @@ section.navbar-fixed {
 .nav > li > a {
   position: relative;
   display: block;
+  margin: 0 0 2px 0;
 }
 .navbar-nav > li > a {
   height: 75px;
@@ -995,6 +996,7 @@ section.navbar-fixed {
 .navbar-collapse,
 .search-box {
   @include transition(all 0.2s ease-in-out);
+  height: 106px
 }
 
 .search-box {
