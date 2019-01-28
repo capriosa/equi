@@ -3561,6 +3561,9 @@ div[aria-selected="false"]  .row  .item-3 {
 
 .sticky-nav {
   z-index: 10000;
+  position: fixed;
+  top: 125px;
+  right: 10px;
 }
 
 .sticky-nav li:nth-child(0n+1) {
