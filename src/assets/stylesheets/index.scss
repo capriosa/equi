@@ -604,11 +604,19 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
       min-height: 0;
     }
   }
+
+
+  .nav-only {
+    padding: 0 !important;
+    height: 75px;
+  }
 }
 
+@media (min-width: $screen-md-min) {
 .nav-only {
   padding: 0 !important;
   height: 100px;
+}
 }
 
 .bg-brand-primary {
@@ -736,17 +744,20 @@ section.navbar-fixed {
 .navbar {
   padding: 0;
   min-height: 75px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
 }
 .navbar-brand {
   /* background: $logo-dark no-repeat center center / contain; */
   @extend .text-hide;
   padding: 0;
 }
+
+@media (min-width: $screen-md-min) {
 .navbar-brand img {
-  margin: 0;
+  margin-top: 17px;
   width: 225px;
   height: auto;
+}
 }
 
 .nav {
@@ -763,6 +774,15 @@ section.navbar-fixed {
   display: block;
   margin: 0 0 2px 0;
 }
+
+@media (min-width: $screen-md-min) {
+  .nav > li,
+  .nav > li > a {
+    margin: 13px 0 2px 0;
+}
+
+}
+
 .navbar-nav > li > a {
   height: 75px;
   position: relative;
@@ -958,15 +978,26 @@ section.navbar-fixed {
 
 /* search toggle + input */
 
+@media (min-width: $screen-md-min) {
 .navbar-search-toggle {
   position: absolute;
-  top: 15px;
+  top: 13px;
   right: 10px;
   display: block;
   height: 75px;
   width: 50px;
   padding: 23px 0;
   text-align: center;
+}
+}
+
+@media (max-width: $screen-xs-max) {
+  .navbar-search-toggle {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    padding: 25px 0 !important;
+  }
 }
 
 .navbar-search-toggle:hover {
@@ -1000,10 +1031,21 @@ section.navbar-fixed {
 
 }
 
+@media (min-width: $screen-md-min) {
+  .search-box {
+    top: 43%;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .search-box {
+    top: 27%;
+  }
+}
+
 .search-box {
   opacity: 0;
   position: absolute;
-  top: 3px;
   right: 5px;
   left: 20px;
   z-index: -1;
@@ -1127,6 +1169,7 @@ section.navbar-fixed {
     text-transform: none;
     border-top: 1px solid #eee;
     text-align: left;
+
   }
   .nav > li:first-child > a {
     border: 0;
