@@ -740,12 +740,20 @@ section.navbar-fixed {
 
 /* navbar
 =================================================================== */
-
+@media (min-width: $screen-md-min) {
 .navbar {
   padding: 0;
-  min-height: 75px;
-
+  min-height: 100px;
 }
+}
+
+@media (max-width: $screen-md-max) {
+  .navbar {
+    padding: 0;
+    max-height: 75px;
+  }
+  }
+
 .navbar-brand {
   /* background: $logo-dark no-repeat center center / contain; */
   @extend .text-hide;
@@ -754,7 +762,7 @@ section.navbar-fixed {
 
 @media (min-width: $screen-md-min) {
 .navbar-brand img {
-  margin-top: 17px;
+  margin-bottom: 0;
   width: 225px;
   height: auto;
 }
@@ -778,7 +786,7 @@ section.navbar-fixed {
 @media (min-width: $screen-md-min) {
   .nav > li,
   .nav > li > a {
-    margin: 13px 0 2px 0;
+    margin: 0 0 2px 0;
 }
 
 }
@@ -981,7 +989,7 @@ section.navbar-fixed {
 @media (min-width: $screen-md-min) {
 .navbar-search-toggle {
   position: absolute;
-  top: 13px;
+  top: 1px;
   right: 10px;
   display: block;
   height: 75px;
@@ -1033,7 +1041,7 @@ section.navbar-fixed {
 
 @media (min-width: $screen-md-min) {
   .search-box {
-    top: 43%;
+    top: 30%;
   }
 }
 
