@@ -572,7 +572,7 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
 .bg-white,
 .bg-brand-primary,
 .bg-brand-secondary {
-  padding: 60px 0;
+  padding: 20px 0;
   clear: both;
   position: relative;
 }
@@ -996,13 +996,14 @@ section.navbar-fixed {
 .navbar-collapse,
 .search-box {
   @include transition(all 0.2s ease-in-out);
+  max-height:80px;
 
 }
 
 .search-box {
   opacity: 0;
   position: absolute;
-  top: 35px;
+  top: 3px;
   right: 5px;
   left: 20px;
   z-index: -1;
@@ -1341,7 +1342,9 @@ section.navbar-fixed {
   .nav-landing-page .navbar-brand img {
     width: 145px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 0 0;
+    position: relative;
+    top: -14px;
   }
 }
 
@@ -3029,7 +3032,7 @@ img.cookie-img {
 .hr-icon {
   clear: both;
   position: relative;
-  padding: 60px 0;
+  padding: 20px 0;
   text-align: center;
   height: 0;
 }
