@@ -746,7 +746,7 @@ section.navbar-fixed {
 .navbar-brand img {
   margin: 0;
   width: 225px;
-  height: 106px;
+  height: auto;
 }
 
 .nav {
@@ -996,7 +996,7 @@ section.navbar-fixed {
 .navbar-collapse,
 .search-box {
   @include transition(all 0.2s ease-in-out);
-  height: 106px
+
 }
 
 .search-box {
@@ -2345,7 +2345,7 @@ _:-ms-fullscreen,
 
 @media (max-width: $screen-xs-max) {
   .carousel-images .carousel-item {
-    height: 250px;
+    height: auto;
   }
 }
 
@@ -2379,11 +2379,26 @@ _:-ms-fullscreen,
 
 .carousel-control-prev,
 .carousel-control-prev:hover {
-  display: none;
+  opacity: 1;
+  cursor: pointer;
+  .carousel-control-prev-icon {
+    background-image: url("../images/slider-back.png");
+    height: 80px;
+    width: 80px;
+
+  }
 }
+
 .carousel-control-next,
 .carousel-control-next:hover {
-  display: none;
+  opacity: 1;
+  cursor: pointer;
+  .carousel-control-next-icon {
+    background-image: url("../images/slider-forward.png");
+    height: 80px;
+    width: 80px;
+
+  }
 }
 
 /* carousel + client-wrapper

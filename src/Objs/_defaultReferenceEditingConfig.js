@@ -6,6 +6,10 @@ const defaultReferenceEditingConfigAttributes = {
     title: "Title",
     description: "Limit to 55 characters.",
   },
+  pageType: {
+    title: "Page Type",
+
+  },
   navigationBackgroundImage: {
     title: "Header background",
     description: "The background image/video of the header.",
@@ -34,6 +38,7 @@ const defaultReferenceInitialContent = {
   ],
   navigationHeight: "small",
   navigationBackgroundImageGradient: "no",
+
 };
 
 const defaultReferenceProperties = [

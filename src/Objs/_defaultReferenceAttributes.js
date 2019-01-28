@@ -12,6 +12,7 @@ const defaultReferenceAttributes = {
   navigationSection: "widgetlist",
   title: "string",
 
+
 };
 
 export default defaultReferenceAttributes;
