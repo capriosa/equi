@@ -41,12 +41,12 @@ class CollabsibleCard extends React.Component {
         </div>
         </div>
         <div className="card-button" onClick={this.toggleCollapse}>
-          {this.state.collapsed ? 
+          {this.state.collapsed ?
           <i className={"fa fa-plus-circle fa-2x " + (this.state.collapsed ? "down" : "up")}></i>
           :
           <i className={"fa fa-minus-circle fa-2x " + (this.state.collapsed ? "down" : "up")}></i>
           }
-            
+
         </div>
       </div>
     );
