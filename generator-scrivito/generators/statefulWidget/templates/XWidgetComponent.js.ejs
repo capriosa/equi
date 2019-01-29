@@ -1,0 +1,24 @@
+import * as React from "react";
+import * as Scrivito from "scrivito";
+
+
+class Stateful extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = [];
+  }
+
+  render() {
+    return (
+      <div>
+        <Scrivito.ContentTag tag="h1" content={this.props.widget} attribute="headline" />
+        <Scrivito.ContentTag tag="div" content={this.props.widget} attribute="teaser" />
+        <Scrivito.ContentTag tag="div" content={this.props.widget} attribute="body" />
+      </div>
+    );
+  }
+}
+
+Scrivito.provideComponent("StatefulWidget", Stateful);
+
+

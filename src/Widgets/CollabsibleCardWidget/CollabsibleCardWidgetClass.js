@@ -3,18 +3,19 @@ import { registerTextExtract } from "../../utils/textExtractRegistry";
 
 
 
-const <%= widgetClassName %> = Scrivito.provideWidgetClass("<%= widgetClassName %>", {
+const CollabsibleCardWidget = Scrivito.provideWidgetClass("CollabsibleCardWidget", {
   attributes: {
+    icon: "reference",
     headline: "string",
-    author: "string",
+    teaser: "html",
     body: "html",
   },
 });
 
-registerTextExtract("<%= widgetClassName %>", [
+registerTextExtract("CollabsibleCardWidget", [
   { attribute: "headline", type: "string" },
-  { attribute: "author", type: "string" },
+  { attribute: "teaser", type: "html" },
   { attribute: "body", type: "html" },
 ]);
 
-export default <%= widgetClassName %>;
+export default CollabsibleCardWidget;
