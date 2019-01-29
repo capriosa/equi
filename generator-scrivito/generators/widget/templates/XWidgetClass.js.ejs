@@ -4,11 +4,15 @@ import { registerTextExtract } from "../../utils/textExtractRegistry";
 const <%= widgetClassName %> = Scrivito.provideWidgetClass("<%= widgetClassName %>", {
   attributes: {
     headline: "string",
+    author: "string",
+    body: "html",
   },
 });
 
 registerTextExtract("<%= widgetClassName %>", [
   { attribute: "headline", type: "string" },
+  { attribute: "author", type: "string" },
+  { attribute: "body", type: "html" },
 ]);
 
 export default <%= widgetClassName %>;
