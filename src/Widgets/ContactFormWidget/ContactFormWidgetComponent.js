@@ -112,7 +112,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         <div className="col-sm-4">
 
           <div className="form-group">
-            <label htmlFor="whencontac">Vormittags</label>
+            <label htmlFor="whencontact">Vormittags</label>
             <input
               className="form-control form-control-lg"
               id="whencontact"
@@ -174,7 +174,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
             <input
               className="form-control form-control-lg"
               id="interest"
-              name="interes"
+              name="interest"
               type="radio"
               value="equatronic"
             />
@@ -195,8 +195,8 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
 
 
         <div className="col-sm-12">
-          <button className="btn btn-primary btn-block" type="submit">
-            {widget.get("buttonText") || "send message"}
+          <button className="btn btn-secondary btn-block" type="submit">
+            {widget.get("buttonText") || "Nachricht senden"}
           </button>
         </div>
       </form>

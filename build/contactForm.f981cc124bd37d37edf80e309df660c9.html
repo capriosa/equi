@@ -1,11 +1,15 @@
-<!-- This file is needed for the Netlify form handling post-processing bots 
+<!-- This file is needed for the Netlify form handling post-processing bots
 https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/ -->
 
 <form name="contact" netlify netlify-honeypot="bot-field" hidden>
   <input type="text" name="contactName" />
-  <input type="text" name="contactFamilyName" />
   <input type="email" name="contactEmail" />
-  <input type="text" name="contactCompany" />
+  <input type="text" name="contactTelephone" />
+  <input type="text" name="contactSubject" />
   <textarea name="contactMessage"></textarea>
   <input type="checkbox" name="contactAgreement" />
+  <input type="radio" name="whencontact" />
+  <input type="radio" name="howcontact" />
+  <input type="radio" name="interest" />
+
 </form>

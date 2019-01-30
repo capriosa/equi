@@ -38,7 +38,7 @@ class CollabsibleCard extends React.Component {
         <Scrivito.ContentTag tag="h2" className="header h3" content={this.props.widget} attribute="headline" />
         <Scrivito.ContentTag tag="div" className="description mt-3" content={this.props.widget} attribute="teaser" />
         </div>
-        
+
         </div>
         <div className={"content collapsible " + this.state.class} style={{height:this.state.height}}>
           <div className="content-wrapper">
