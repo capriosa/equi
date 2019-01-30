@@ -26,7 +26,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         </div>
         <div className="col-sm-6">
           <div className="form-group">
-            <label htmlFor="contactName">Your name</label>
+            <label htmlFor="contactName">Name</label>
             <input
               className="form-control form-control-lg"
               id="contactName"
@@ -37,27 +37,15 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
             />
           </div>
         </div>
+
         <div className="col-sm-6">
           <div className="form-group">
-            <label htmlFor="contactFamilyName">Family name</label>
-            <input
-              className="form-control form-control-lg"
-              id="contactFamilyName"
-              name="contactFamilyName"
-              placeholder="Family name"
-              type="text"
-              required
-            />
-          </div>
-        </div>
-        <div className="col-sm-6">
-          <div className="form-group">
-            <label htmlFor="contactEmail">Email address</label>
+            <label htmlFor="contactEmail">E-Mail</label>
             <input
               className="form-control form-control-lg"
               id="contactEmail"
               name="contactEmail"
-              placeholder="Email"
+              placeholder="E-Mail"
               type="email"
               required
             />
@@ -65,25 +53,39 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         </div>
         <div className="col-sm-6">
           <div className="form-group">
-            <label htmlFor="contactCompany">Company (optional)</label>
+            <label htmlFor="contactTelephone">Telefonnummer</label>
             <input
               className="form-control form-control-lg"
-              id="contactCompany"
-              name="contactCompany"
-              placeholder="Company"
+              id="contactTelephone"
+              name="contactTelephone"
+              placeholder="Telefonnummer"
               type="text"
             />
           </div>
         </div>
+
+        <div className="col-sm-6">
+          <div className="form-group">
+            <label htmlFor="contactSubject">Betreff</label>
+            <input
+              className="form-control form-control-lg"
+              id="contactSubject"
+              name="contactSubject"
+              placeholder="Betreff"
+              type="text"
+            />
+          </div>
+        </div>
+
         <div className="col-sm-12">
           <div className="form-group">
-            <label htmlFor="contactMessage">Message</label>
+            <label htmlFor="contactMessage">Nachricht</label>
             <textarea
               className="form-control form-control-lg"
               rows="3"
               id="contactMessage"
               name="contactMessage"
-              placeholder="Your Message..."
+              placeholder="Ihre Nachricht ..."
               required
             />
           </div>
@@ -102,6 +104,97 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
               </label>
             </div>
           )}
+          </div>
+
+        <div className="col-sm-12">
+        <b>Wann können wir Sie kontaktieren?</b>
+        </div>
+        <div className="col-sm-4">
+
+          <div className="form-group">
+            <label htmlFor="whencontac">Vormittags</label>
+            <input
+              className="form-control form-control-lg"
+              id="whencontact"
+              name="whencontact"
+              type="radio"
+              value="vormittags"
+            />
+          </div>
+        </div>
+        <div className="col-sm-4">
+          <div className="form-group">
+            <label htmlFor="whencontact2">Nachmittags</label>
+            <input
+              className="form-control form-control-lg"
+              id="whencontact2"
+              name="whencontact"
+              value="nachmittags"
+              type="radio"
+            />
+          </div>
+        </div>
+
+        <div className="col-sm-12">
+        <b>Wie können wir Sie kontaktieren?</b>
+        </div>
+        <div className="col-sm-4">
+
+          <div className="form-group">
+            <label htmlFor="howcontact">Per E-Mail</label>
+            <input
+              className="form-control form-control-lg"
+              id="howcontact"
+              name="howcontact"
+              type="radio"
+              value="email"
+            />
+          </div>
+        </div>
+        <div className="col-sm-4">
+          <div className="form-group">
+            <label htmlFor="howcontact2">Telefonisch</label>
+            <input
+              className="form-control form-control-lg"
+              id="howcontact2"
+              name="howcontact"
+              value="telefonisch"
+              type="radio"
+            />
+          </div>
+        </div>
+
+        <div className="col-sm-12">
+        <b>Ihr Interesse?</b>
+        </div>
+        <div className="col-sm-4">
+
+          <div className="form-group">
+            <label htmlFor="interest">Interesse an eQuatronic</label>
+            <input
+              className="form-control form-control-lg"
+              id="interest"
+              name="interes"
+              type="radio"
+              value="equatronic"
+            />
+          </div>
+        </div>
+        <div className="col-sm-4">
+          <div className="form-group">
+            <label htmlFor="interest2">Partner werden</label>
+            <input
+              className="form-control form-control-lg"
+              id="interest2"
+              name="interest"
+              value="partner werden"
+              type="radio"
+            />
+          </div>
+        </div>
+
+
+        <div className="col-sm-12">
           <button className="btn btn-primary btn-block" type="submit">
             {widget.get("buttonText") || "send message"}
           </button>
