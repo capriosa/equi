@@ -39,6 +39,7 @@
     "filesize": "^4.0.0",
     "fs-extra": "^7.0.1",
     "fuse.js": "^3.3.0",
+    "generator-react": "0.0.2",
     "generator-scrivito": "file:generator-scrivito",
     "is-empty": "^1.2.0",
     "jquery": "^3.3.1",

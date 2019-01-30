@@ -2437,8 +2437,8 @@ _:-ms-fullscreen,
   cursor: pointer;
   .carousel-control-prev-icon {
     background-image: url("../images/slider-back.png");
-    height: 80px;
-    width: 80px;
+    height: 5vw;
+    width: 5vw;
 
   }
 }
@@ -2449,8 +2449,8 @@ _:-ms-fullscreen,
   cursor: pointer;
   .carousel-control-next-icon {
     background-image: url("../images/slider-forward.png");
-    height: 80px;
-    width: 80px;
+    height: 5vw;
+    width: 5vw;
 
   }
 }

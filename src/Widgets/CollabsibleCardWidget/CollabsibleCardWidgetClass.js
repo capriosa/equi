@@ -15,7 +15,7 @@ const CollabsibleCardWidget = Scrivito.provideWidgetClass("CollabsibleCardWidget
 registerTextExtract("CollabsibleCardWidget", [
   { attribute: "headline", type: "string" },
   { attribute: "teaser", type: "html" },
-  { attribute: "body", type: "html" },
+  { attribute: "body", type: "widgetlist" },
 ]);
 
 export default CollabsibleCardWidget;
