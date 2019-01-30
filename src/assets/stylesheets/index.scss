@@ -3670,7 +3670,7 @@ div[aria-selected="false"]  .row  .item-3 {
   border-radius: 3px;
 
   .card-icon {
-    width: 75px;
+    max-width: 100%;
   }
 
   & > .content {

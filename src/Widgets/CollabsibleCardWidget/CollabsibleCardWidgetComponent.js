@@ -30,9 +30,13 @@ class CollabsibleCard extends React.Component {
   render() {
     return (
       <div className="ui card">
-        <div className="content header-content text-center">
-        <Scrivito.ContentTag tag="h2" className="header h3" content={this.props.widget} attribute="headline" />
+        <div className="content header-content text-left row">
+        <div className="col-lg-5">
         <Scrivito.ImageTag className="img-responsive card-icon mt-3" content={ this.props.widget } attribute="icon" alt="Icon" />
+        </div>
+        <div className="col-lg-7">
+        <Scrivito.ContentTag tag="h2" className="header h3" content={this.props.widget} attribute="headline" />
+        </div>
         <Scrivito.ContentTag tag="div" className="description mt-3" content={this.props.widget} attribute="teaser" />
         </div>
         <div className={"content collapsible " + this.state.class} style={{height:this.state.height}}>
