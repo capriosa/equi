@@ -5,7 +5,7 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
   const style = widget.get("style") || "h2";
   const level = widget.get("level") || style;
   const classNames = [style];
-  const anchorId = widget.get("id");
+  const anchorId = widget.get("anchorId");
   if (widget.get("alignment")) {
     classNames.push(`text-${widget.get("alignment")}`);
   }
