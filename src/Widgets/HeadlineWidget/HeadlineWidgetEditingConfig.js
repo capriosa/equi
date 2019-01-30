@@ -17,7 +17,7 @@ Scrivito.provideEditingConfig("HeadlineWidget", {
         { value: "h6", title: "Heading 6" },
       ],
     },
-    id: {
+    anchorId: {
       title: "Anchor id",
       description: "Set a value for tag id",
     },
@@ -55,7 +55,7 @@ Scrivito.provideEditingConfig("HeadlineWidget", {
       values: [{ value: "yes", title: "Yes" }, { value: "no", title: "No" }],
     },
   },
-  properties: ["style","id", "level", "alignment", "showDividingLine", "showMargin"],
+  properties: ["style","anchorId", "level", "alignment", "showDividingLine", "showMargin"],
   initialContent: {
     alignment: "left",
     headline: "Lorem Ipsum",
