@@ -109,8 +109,8 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         <div className="col-sm-12">
         <b>Wann können wir Sie kontaktieren?</b>
         </div>
-        <div className="col-sm-Anim officia nostrud fugiat id aliqua et consectetur tempor. Anim officia nostrud fugiat id aliqua et consectetur tempor. Anim officia nostrud fugiat id aliqua et consectetur tempor. Anim officia nostrud fugiat id aliqua et consectetur tempor ">
-
+        
+        <div className="col-sm-5">
           <div className="form-group">
             <label htmlFor="whencontact">Vormittags</label>
             <input
@@ -194,7 +194,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         </div>
 
 
-        <div className="col-sm-4">
+        <div className="col-sm-6">
           <button className="btn btn-secondary btn-block" type="submit">
             {widget.get("buttonText") || "Nachricht senden"}
           </button>
