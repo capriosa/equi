@@ -109,7 +109,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         <div className="col-sm-12">
         <b>Wann können wir Sie kontaktieren?</b>
         </div>
-        
+
         <div className="col-sm-5">
           <div className="form-group">
             <label htmlFor="whencontact">Vormittags</label>
