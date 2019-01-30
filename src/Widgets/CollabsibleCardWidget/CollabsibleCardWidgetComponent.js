@@ -31,10 +31,10 @@ class CollabsibleCard extends React.Component {
     return (
       <div className="ui card">
         <div className="content header-content text-left row">
-        <div className="col-lg-5">
+        <div className="col-lg-3">
         <Scrivito.ImageTag className="img-responsive card-icon mt-3" content={ this.props.widget } attribute="icon" alt="Icon" />
         </div>
-        <div className="col-lg-7">
+        <div className="col-lg-9">
         <Scrivito.ContentTag tag="h2" className="header h3" content={this.props.widget} attribute="headline" />
         <Scrivito.ContentTag tag="div" className="description mt-3" content={this.props.widget} attribute="teaser" />
         </div>
