@@ -1121,7 +1121,7 @@ section.navbar-fixed {
 @media (max-width: $screen-md-min) {
   .fixed-top .navbar-collapse,
   .fixed-bottom .navbar-collapse {
-    max-height: calc(100vh - 76px);
+    max-height: calc(100vh - 100px);
     width: 100%;
     overflow-y: auto;
   }
