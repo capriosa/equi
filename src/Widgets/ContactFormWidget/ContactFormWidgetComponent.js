@@ -26,7 +26,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         </div>
         <div className="col-sm-6">
           <div className="form-group">
-            <label htmlFor="contactName">Name</label>
+
             <input
               className="form-control form-control-lg"
               id="contactName"
@@ -40,7 +40,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
 
         <div className="col-sm-6">
           <div className="form-group">
-            <label htmlFor="contactEmail">E-Mail</label>
+
             <input
               className="form-control form-control-lg"
               id="contactEmail"
@@ -53,7 +53,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
         </div>
         <div className="col-sm-6">
           <div className="form-group">
-            <label htmlFor="contactTelephone">Telefonnummer</label>
+
             <input
               className="form-control form-control-lg"
               id="contactTelephone"
@@ -66,7 +66,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
 
         <div className="col-sm-6">
           <div className="form-group">
-            <label htmlFor="contactSubject">Betreff</label>
+
             <input
               className="form-control form-control-lg"
               id="contactSubject"
@@ -79,7 +79,7 @@ Scrivito.provideComponent("ContactFormWidget", ({ widget }) => {
 
         <div className="col-sm-12">
           <div className="form-group">
-            <label htmlFor="contactMessage">Nachricht</label>
+
             <textarea
               className="form-control form-control-lg"
               rows="3"
