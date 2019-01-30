@@ -9,9 +9,9 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
 
   const backgroundImage = widget.get("backgroundImage");
   if (backgroundImage) {
-    
+
     sectionStyle.background = [
-      
+
       { image: backgroundImage },
     ];
   }

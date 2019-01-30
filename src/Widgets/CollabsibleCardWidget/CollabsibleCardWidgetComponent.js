@@ -9,13 +9,13 @@ class CollabsibleCard extends React.Component {
       collapsed: true,
       buttonText: 'Expand',
       class: 'collapsed',
-      height: 60
+      height: 100
     };
     this.toggleCollapse = this.toggleCollapse.bind(this);
   }
 
   toggleCollapse(e) {
-    const contentHeight = 100;
+    const contentHeight = 200;
     const contentPadding = 20;
     const newHeight = contentHeight + contentPadding;
 
@@ -23,7 +23,7 @@ class CollabsibleCard extends React.Component {
         collapsed: !this.state.collapsed,
         buttonText: this.state.collapsed ? 'Collapse' : 'Expand',
         class: this.state.collapsed ? '' : 'collapsed',
-        height: this.state.collapsed ? newHeight : 60
+        height: this.state.collapsed ? newHeight : 100
     });
 }
 

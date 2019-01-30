@@ -8,7 +8,7 @@ const CollabsibleCardWidget = Scrivito.provideWidgetClass("CollabsibleCardWidget
     icon: "reference",
     headline: "string",
     teaser: "html",
-    body: "html",
+    body: "widgetlist",
   },
 });
 
