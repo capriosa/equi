@@ -23,6 +23,7 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
       attribute="headline"
       className={classNames.join(" ")}
       id={anchorId}
+      name={anchorId}
     />
   );
 });
