@@ -17,7 +17,7 @@ class CollabsibleCard extends React.Component {
   toggleCollapse(e) {
     const contentHeight = 200;
     const contentPadding = 20;
-    const newHeight = contentHeight + contentPadding;
+    const newHeight = "auto";
 
     this.setState({
         collapsed: !this.state.collapsed,
