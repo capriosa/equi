@@ -17,6 +17,8 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
   }
 
   return (
+    <div>
+      <a name={anchorId} id={anchorId} />
     <Scrivito.ContentTag
       tag={level}
       content={widget}
@@ -25,5 +27,6 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
       id={anchorId}
       name={anchorId}
     />
+    </div>
   );
 });
