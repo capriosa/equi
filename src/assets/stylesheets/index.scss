@@ -1122,7 +1122,9 @@ section.navbar-fixed {
   .fixed-top .navbar-collapse,
   .fixed-bottom .navbar-collapse {
     width: 100%;
-  }
+    top: 0;
+    -webkit-top: 38px !important;
+}
 
   .navbar-header {
     width: 100%;
