@@ -8,12 +8,6 @@ const defaultReferenceAttributes = {
       values: ["small", "medium-height", "full-height"],
     },
   ],
-  components: [
-    "multienum",
-    {
-      values: ["PVT", "Wärmepumpe", "Pufferspeicher","Erdwärmespeicher"],
-    },
-  ],
 
   pvt: 'string',
   waermepumpe: 'string',

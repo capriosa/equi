@@ -21,12 +21,11 @@ const ReferenceItem = Scrivito.connect(({ item }) => (
   <div className="col-sm-12">
 
       <h3 className="h3">{item.get("title")}</h3>
-      {item.get("components").map((item, index) => (
-            <div key={index}>
-              {item} <br />
-
-            </div>
-          ))}
+      {item.get("pvt") ? (<div>PVT<div>Größe { item.get("pvt") }</div></div> ): null }
+      {item.get("waermepumpe") ? (<div>Wärmepumpe<div>Größe { item.get("waermepumpe") }</div></div> ): null }
+      {item.get("pufferspeicher") ? (<div>Pufferspeicher<div>Größe { item.get("pufferspeicher") }</div></div> ): null }
+      {item.get("erdwaermespeicher") ? (<div>Erdwärmespeicher<div>Größe { item.get("erdwaermespeicher") }</div></div> ): null }
+      <div>{item.get('address')}</div>
     <div>{item.get('address')}</div>
 
 

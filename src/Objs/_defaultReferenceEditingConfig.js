@@ -28,16 +28,7 @@ const defaultReferenceEditingConfigAttributes = {
       { value: "full-height", title: "Fullscreen" },
     ],
   },
-  components: {
-    title: "Komponenten",
 
-    values: [
-      { value: "PVT", title: "PVT" },
-      { value: "Wärmepumpe", title: "Wärmepumpe" },
-      { value: "Pufferspeicher", title: "Pufferspeicher" },
-      { value: "Erdwärmespeicher", title: "Erdwärmespeicher" },
-    ],
-  },
     pvt: {
         title: "PVT Größe"
     },
@@ -71,7 +62,7 @@ const defaultReferenceInitialContent = {
 
 const defaultReferenceProperties = [
   "title",
-  "components",
+  "pvt",
   "waermepumpe",
   "pufferspeicher",
   "erdwaermespeicher",
