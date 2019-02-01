@@ -28,13 +28,41 @@ const defaultReferenceEditingConfigAttributes = {
       { value: "full-height", title: "Fullscreen" },
     ],
   },
+  components: {
+    title: "Komponenten",
+
+    values: [
+      { value: "PVT", title: "PVT" },
+      { value: "Wärmepumpe", title: "Wärmepumpe" },
+      { value: "Pufferspeicher", title: "Pufferspeicher" },
+      { value: "Erdwärmespeicher", title: "Erdwärmespeicher" },
+    ],
+  },
+    pvt: {
+        title: "PVT Größe"
+    },
+
+    waermepumpe: {
+        title: "Wärmepumpe Größe"
+    },
+    pufferspeicher: {
+        title: "Pufferspeicher Größe"
+    },
+    erdwaermespeicher: {
+        title: "Erdwärmespeicher Größe"
+    },
+    address: {
+        title: 'Address',
+        description: 'The address that should be shown on the map.' +
+            ' Example: Brandenburg Gate, Berlin, Germany',
+    },
 };
 
 const defaultReferenceInitialContent = {
   body: [
-    new SectionWidget({
-      content: [new HeadlineWidget({ style: "h1" })],
-    }),
+    new SectionWidget(
+
+    ),
   ],
   navigationHeight: "small",
   navigationBackgroundImageGradient: "no",
@@ -43,6 +71,11 @@ const defaultReferenceInitialContent = {
 
 const defaultReferenceProperties = [
   "title",
+  "components",
+  "waermepumpe",
+  "pufferspeicher",
+  "erdwaermespeicher",
+  "address",
   "navigationHeight",
   "navigationBackgroundImage",
   "navigationBackgroundImageGradient",

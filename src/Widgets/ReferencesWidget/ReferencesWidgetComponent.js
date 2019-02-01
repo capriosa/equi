@@ -19,10 +19,16 @@ Scrivito.provideComponent("ReferencesWidget", ({ widget }) => {
 
 const ReferenceItem = Scrivito.connect(({ item }) => (
   <div className="col-sm-12">
-    <Scrivito.LinkTag to={item}>
-      <h3 className="h3">{item.get("title")}</h3>
 
-    </Scrivito.LinkTag>
+      <h3 className="h3">{item.get("title")}</h3>
+      {item.get("components").map((item, index) => (
+            <div key={index}>
+              {item} <br />
+
+            </div>
+          ))}
+    <div>{item.get('address')}</div>
+
 
   </div>
 ));

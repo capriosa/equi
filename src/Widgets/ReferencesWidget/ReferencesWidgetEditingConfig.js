@@ -1,7 +1,7 @@
 import * as Scrivito from "scrivito";
 
 Scrivito.provideEditingConfig("ReferencesWidget", {
-  title: "References",
+  title: "Seitenliste",
   attributes: {
 
     pageType: {
@@ -9,7 +9,7 @@ Scrivito.provideEditingConfig("ReferencesWidget", {
       description: "Default: Page",
       values: [
         { value: "Page", title: "Page" },
-        { value: "Reference", title: "News" },
+        { value: "Reference", title: "Referenzen" },
 
       ],
     },
@@ -21,7 +21,7 @@ properties: [
 ],
 initialContent: {
     headline: "Lorem Ipsum",
-    pageType: "Page"
+    pageType: "Reference"
   },
 });
 

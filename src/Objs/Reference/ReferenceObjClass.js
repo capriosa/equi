@@ -12,7 +12,6 @@ const Reference = Scrivito.provideObjClass("Reference", {
 });
 
 registerTextExtract("Reference", [
-  { attribute: "navigationSection", type: "widgetlist" },
   { attribute: "body", type: "widgetlist" },
 ]);
 

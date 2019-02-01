@@ -8,11 +8,20 @@ const defaultReferenceAttributes = {
       values: ["small", "medium-height", "full-height"],
     },
   ],
+  components: [
+    "multienum",
+    {
+      values: ["PVT", "Wärmepumpe", "Pufferspeicher","Erdwärmespeicher"],
+    },
+  ],
 
-  navigationSection: "widgetlist",
+  pvt: 'string',
+  waermepumpe: 'string',
+  pufferspeicher: 'string',
+  erdwaermespeicher: 'string',
   title: "string",
 
-
+  address: "string",
 };
 
 export default defaultReferenceAttributes;
