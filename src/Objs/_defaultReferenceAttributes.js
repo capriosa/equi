@@ -14,6 +14,7 @@ const defaultReferenceAttributes = {
   pufferspeicher: 'string',
   erdwaermespeicher: 'string',
   title: "string",
+  image: "reference",
 
   address: "string",
 };

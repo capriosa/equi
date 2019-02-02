@@ -29,6 +29,10 @@ const defaultReferenceEditingConfigAttributes = {
     ],
   },
 
+    image: {
+        title: "Image"
+    },
+
     pvt: {
         title: "PVT Größe"
     },
@@ -62,6 +66,7 @@ const defaultReferenceInitialContent = {
 
 const defaultReferenceProperties = [
   "title",
+  "image",
   "pvt",
   "waermepumpe",
   "pufferspeicher",
