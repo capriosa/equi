@@ -58,8 +58,7 @@ class GoogleMapsWidgetComponent extends React.Component {
   }
 
   render() {
-    const address =
-      this.props.widget.get("address") || "Brandenburg Gate, Berlin, Germany";
+    const address = this.props.widget.get("address") || "Brandenburg Gate, Berlin, Germany";
     const zoom = this.props.widget.get("zoom") || "15";
     const apiKey = googleMapsApiKey();
     const mapType = this.props.widget.get("mapType") || "static";
@@ -98,7 +97,7 @@ class GoogleMapsWidgetComponent extends React.Component {
 
     // See all options at https://developers.google.com/maps/documentation/static-maps/intro
     const params = {
-      size: `${this.state.width}x${this.state.height}`,
+    size: `${this.state.width}x${this.state.height}`,
       scale: 2, // with scale 2 google maps allows more pixels.
       markers: `color:red|${address}`,
       zoom,

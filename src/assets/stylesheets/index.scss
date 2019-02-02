@@ -8,6 +8,14 @@
 $grid-columns: 12;
 $grid-gutter-width: 30px;
 
+.flex-fill {
+    flex: 0 0 30%;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 $border-radius: 0 !default;
 $border-radius-lg: 0 !default;
 $border-radius-sm: 0 !default;
