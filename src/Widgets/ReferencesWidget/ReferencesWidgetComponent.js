@@ -23,7 +23,7 @@ Scrivito.provideComponent("ReferencesWidget", ({ widget }) => {
 const ReferenceItem = Scrivito.connect(({ item }) => (
     <div className='small'>
         <Scrivito.ImageTag content={item.get('image')} alt='Bild vom Haus' />
-        <h2 className="h4">{item.get("title")}</h2>
+        <h2 className="h4 font-weight-bold">{item.get("title")}</h2>
         {item.get("pvt") && <div>PVT<div>Größe {item.get("pvt")}</div></div>}
         {item.get("waermepumpe") && <div>Wärmepumpe<div>Größe {item.get("waermepumpe")}</div></div>}
         {item.get("pufferspeicher") && <div>Pufferspeicher<div>Größe {item.get("pufferspeicher")}</div></div>}
