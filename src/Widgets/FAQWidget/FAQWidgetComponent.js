@@ -42,7 +42,7 @@ const list = items.map((item, index) =>
 
     <AccordionItemTitle>
 
-        <h3>{item.get('question')}</h3>
+        <h3 className="u-position-relative h5"><div className="accordion__arrow" />{item.get('question')}</h3>
 
     </AccordionItemTitle>
     <AccordionItemBody>
