@@ -19,8 +19,8 @@ Scrivito.provideEditingConfig("LinkContainerWidget", {
         new LinkWidget({
           link: new Scrivito.Link({
             title,
-            url: "https://scrivito.com",
-            target: "_blank",
+            url: "/funktionsweise",
+            hash: "#winter",
           }),
         })
     ),

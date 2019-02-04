@@ -17,7 +17,7 @@ Scrivito.provideComponent("LinkWidget", ({ widget }) => {
 
   return (
     <Scrivito.WidgetTag tag="li">
-      <Scrivito.LinkTag to={link}>
+      <Scrivito.LinkTag to={link} hash='#winter'>
         <LinkTitle link={link} />
       </Scrivito.LinkTag>
     </Scrivito.WidgetTag>

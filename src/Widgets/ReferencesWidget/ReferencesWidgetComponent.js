@@ -30,9 +30,6 @@ const ReferenceItem = Scrivito.connect(({ item }) => (
         {item.get("erdwaermespeicher") && <div>Erdwärmespeicher<div>Größe {item.get("erdwaermespeicher")}</div></div>}
         <div className="small">{item.get('address')}</div>
 
-
-
-
     </div>
 ));
 
