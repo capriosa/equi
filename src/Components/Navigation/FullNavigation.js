@@ -52,13 +52,16 @@ class FullNavigation extends React.Component {
               expanded={this.state.expanded}
               toggleExpanded={this.toggleExpanded}
             />
+
             <Logo scrolled={scrolled} navigationStyle={navigationStyle} />
             <SearchIcon toggleSearch={toggleSearch} />
           </div>
 
           <Collapse isOpen={this.state.expanded} navbar>
             <div className="navbar-collapse">
+
               <Nav
+
                 closeExpanded={this.closeExpanded}
                 expanded={this.state.expanded}
               />

@@ -10,7 +10,7 @@ Scrivito.provideComponent("ReferencesWidget", ({ widget }) => {
 
     <div className="d-flex justify-content-between wrap">
     {[...references].map((item, index) => (
-      <div className='flex-fill mt-3 mb-3'>
+      <div key={index} className='flex-fill mt-3 mb-3'>
       <ReferenceItem key={`${item.id}${index}`} item={item} />
 
       </div>
@@ -29,6 +29,7 @@ const ReferenceItem = Scrivito.connect(({ item }) => (
         {item.get("pufferspeicher") && <div>Pufferspeicher<div>Größe {item.get("pufferspeicher")}</div></div>}
         {item.get("erdwaermespeicher") && <div>Erdwärmespeicher<div>Größe {item.get("erdwaermespeicher")}</div></div>}
         <div className="small">{item.get('address')}</div>
+
 
     </div>
 ));

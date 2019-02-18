@@ -4,7 +4,7 @@ import { registerTextExtract } from "../../utils/textExtractRegistry";
 const ReferencesWidget = Scrivito.provideWidgetClass("ReferencesWidget", {
   attributes: {
     headline: "string",
-    pageType: ["enum", { values: ["Page", "Reference"] }],
+    pageType: ["enum", { values: ["Page", "Reference", "Blog"] }],
   },
 });
 

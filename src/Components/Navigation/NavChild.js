@@ -7,6 +7,8 @@ class BaseNavChild extends React.Component {
 
     this.state = {
       open: false,
+      home: false,
+
     };
 
     this.closeDropdown = this.closeDropdown.bind(this);
@@ -15,6 +17,7 @@ class BaseNavChild extends React.Component {
 
   componentDidMount() {
     this.props.registerDropdown(this);
+    this.setState({home : true})
   }
 
   componentWillUnmount() {
@@ -83,6 +86,7 @@ const Dropdown = Scrivito.connect(
 
     return (
       <li className={classNames.join(" ")} {...otherProps}>
+
         <Scrivito.LinkTag
           to={child}
           className="nav-link"
