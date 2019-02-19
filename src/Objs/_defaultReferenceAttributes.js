@@ -17,6 +17,7 @@ const defaultReferenceAttributes = {
   image: "reference",
 
   address: "string",
+  lon: 'float',
 };
 
 export default defaultReferenceAttributes;

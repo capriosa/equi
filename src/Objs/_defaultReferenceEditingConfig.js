@@ -51,6 +51,12 @@ const defaultReferenceEditingConfigAttributes = {
         description: 'The address that should be shown on the map.' +
             ' Example: Brandenburg Gate, Berlin, Germany',
     },
+    lon: {
+        title: 'Longitude',
+    },
+    lat: {
+        title: 'Latitude',
+    }
 };
 
 const defaultReferenceInitialContent = {
@@ -72,6 +78,8 @@ const defaultReferenceProperties = [
   "pufferspeicher",
   "erdwaermespeicher",
   "address",
+  "lon",
+  "lat",
   "navigationHeight",
   "navigationBackgroundImage",
   "navigationBackgroundImageGradient",
