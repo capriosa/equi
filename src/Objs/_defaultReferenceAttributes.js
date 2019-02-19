@@ -18,6 +18,7 @@ const defaultReferenceAttributes = {
 
   address: "string",
   lon: 'float',
+  lat: 'float',
 };
 
 export default defaultReferenceAttributes;
