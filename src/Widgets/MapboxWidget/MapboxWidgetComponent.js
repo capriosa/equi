@@ -9,7 +9,7 @@ console.log(kundenliste)
   return (
 
     <div className="map">
-        <EquiMap kundenliste={kundenliste} fitBounds />
+        <EquiMap mapboxApiAccessToken="pk.eyJ1IjoianVsaWFuczM3IiwiYSI6ImNpcDdmNWdlbDAwMmR2M25sa3k0Yjd0bG8ifQ.2S1SPdEJLAffhv-a0HEMIQ" kundenliste={kundenliste} fitBounds />
     </div>
 
   )
