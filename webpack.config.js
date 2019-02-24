@@ -45,6 +45,15 @@ function webpackConfig(env = {}) {
     module: {
       rules: [
         {
+            test: /\.csv$/,
+            loader: 'csv-loader',
+            options: {
+              dynamicTyping: true,
+              header: true,
+              skipEmptyLines: true
+            }
+          },
+        {
           test: /\.js$/,
           include: [
             path.join(__dirname, "src"),
@@ -123,6 +132,7 @@ function webpackConfig(env = {}) {
     resolve: {
       extensions: [".js"],
       modules: ["node_modules"],
+
     },
     devServer: {
       port: 8080,
