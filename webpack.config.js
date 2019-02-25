@@ -45,6 +45,18 @@ function webpackConfig(env = {}) {
     module: {
       rules: [
         {
+            test: /\.(png)$/i,
+            use: [
+              {
+                loader: 'url-loader',
+                options: {
+                  limit: 8192
+                }
+              }
+            ]
+          },
+
+        {
             test: /\.csv$/,
             loader: 'csv-loader',
             options: {
@@ -61,7 +73,9 @@ function webpackConfig(env = {}) {
             path.join(__dirname, "node_modules/dom-utils"), // sub-dependency of autotrack
             path.join(__dirname, "node_modules/striptags"),
           ],
+
           use: [
+
             {
               loader: "babel-loader",
               options: {
@@ -102,7 +116,7 @@ function webpackConfig(env = {}) {
           ],
         },
         {
-          test: /\.(jpg|png|eot|svg|ttf|woff|woff2|gif|html)$/,
+          test: /\.(jpg|eot|svg|ttf|woff|woff2|gif|html)$/,
           use: [
             {
               loader: "file-loader",
@@ -129,6 +143,7 @@ function webpackConfig(env = {}) {
       path: path.join(__dirname, buildPath),
     },
     plugins: generatePlugins({ isProduction, isPrerendering, scrivitoOrigin }),
+
     resolve: {
       extensions: [".js"],
       modules: ["node_modules"],
@@ -177,6 +192,7 @@ function generatePlugins({ isProduction, isPrerendering, scrivitoOrigin }) {
       SCRIVITO_TENANT: "",
       SCRIVITO_ORIGIN: scrivitoOrigin,
     }),
+
     new Webpackbar(),
     new CopyWebpackPlugin([
       { from: "../public", ignore: ignorePublicFiles },

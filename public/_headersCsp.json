@@ -1,16 +1,20 @@
 {
   "base-uri": "'none'",
-  "default-src": ["'self'", "data:", "https:", "wss:"],
+  "default-src": ["'self'", "data: blob", "https:", "wss:", "blob"],
   "style-src": ["'self'", "data:", "https:", "wss:", "'unsafe-inline'"],
   "script-src": [
     "'self'",
+    "'blob'",
     "https://api.scrivito.com",
     "https://app.intercom.io",
     "https://assets.scrivito.com",
     "https://js.intercomcdn.com",
     "https://widget.intercom.io",
-    "https://www.google-analytics.com"
+    "https://www.google-analytics.com",
+    "https://*.tiles.mapbox.com",
+    "https://api.mapbox.com"
   ],
+  "img-src": "'blob'",
   "object-src": "'none'",
   "block-all-mixed-content": true
 }
