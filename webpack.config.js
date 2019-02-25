@@ -44,17 +44,7 @@ function webpackConfig(env = {}) {
     entry: generateEntry({ isPrerendering }),
     module: {
       rules: [
-        {
-            test: /\.(png)$/i,
-            use: [
-              {
-                loader: 'url-loader',
-                options: {
-                  limit: 8192
-                }
-              }
-            ]
-          },
+
 
         {
             test: /\.csv$/,
@@ -116,7 +106,7 @@ function webpackConfig(env = {}) {
           ],
         },
         {
-          test: /\.(jpg|eot|svg|ttf|woff|woff2|gif|html)$/,
+          test: /\.(jpg|png|eot|svg|ttf|woff|woff2|gif|html)$/,
           use: [
             {
               loader: "file-loader",
