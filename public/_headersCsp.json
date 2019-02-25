@@ -3,7 +3,7 @@
   "default-src": [ "data:", "https:", "wss:","blob:"],
   "style-src": ["'self'", "data:", "https:", "wss:", "'unsafe-inline'"],
   "script-src": [
-    "*",
+    "blob:",
     "https://api.scrivito.com",
     "https://app.intercom.io",
     "https://assets.scrivito.com",
