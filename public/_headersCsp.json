@@ -1,9 +1,9 @@
 {
   "base-uri": "'none'",
-  "default-src": ["'self'", "data:", "https:", "wss:","blob:"],
+  "default-src": ["'self'", "data:", "https:", "wss:"],
   "style-src": ["'self'", "data:", "https:", "wss:", "'unsafe-inline'"],
   "script-src": [
-    "'self blob:'",
+    "'self'",
     "https://api.scrivito.com",
     "https://app.intercom.io",
     "https://assets.scrivito.com",
