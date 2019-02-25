@@ -1,9 +1,8 @@
 {
   "base-uri": "'none'",
-  "default-src": ["'self'", "data:", "https:", "wss:"],
-  "style-src": ["*","'self'", "data:", "https:", "wss:", "'unsafe-inline'"],
+  "default-src": [ "data:", "https:", "wss:"],
+  "style-src": ["'self'", "data:", "https:", "wss:", "'unsafe-inline'"],
   "script-src": [
-    "'self'",
     "*",
     "https://api.scrivito.com",
     "https://app.intercom.io",
@@ -14,7 +13,7 @@
     "https://*.tiles.mapbox.com",
     "https://api.mapbox.com"
   ],
-  "media-src": "'self' blob:",
-  "object-src": "'self' blob:",
+  "media-src": "blob:",
+  "object-src": "blob:",
   "block-all-mixed-content": true
 }
