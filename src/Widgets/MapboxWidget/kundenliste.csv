@@ -1,14 +1,86 @@
 Nummer;Name;Lon;Lat;JAZ;CO2;Bäume;On/Off
-101072;Herr Pfeifer;9,6567424;48,0002899;6,1;7142,42;14,28484;1
-101073;Bitterwolf;9,6429734;47,9790785;5,9;4590;9,18;1
-101079;Stegmeier Thomas;9,5342657;47,9348602;7,2;10340;20,68;1
-101099;Achitekturbüro Kümmerle;9,80886;48,09191;8,4;8940;17,88;1
-101103;Mayer Reiner - Ingoldingen/Degernau;9,7466773;48,0301253;6,2;3420;6,84;1
-101112;Diana Englsberger;10,210578;47,9897306;7,2;1200;2,4;1
-101122;Sum / Haas;8,53373;48,28035;10,5;6540;13,08;0
-101125;Kaplan;9,6102495;47,8967132;8,4;7890;15,78;1
-101137;Schmieder Andreas - Ertingen;9,4665314;48,0996716;6,9;12340;24,68;1
-101150;Schneider Staig;9,9901;48,30224;8,1;3450;6,9;1
-101152;Ellen Benisch;8,6743938;49,9928121;5,3;1200;2,4;0
-101181;Wäscherei Erbach;9,8967204;48,3248567;8,4;6901;13,802;1
-101194;Kreativ Planungsbüro;9,5006265;48,0156675;6,4;3450;6,9;1
+0;Liebherr Schussenried;9,6653501;47,99411;0;0;0;0
+0;Onkologische Fachklinik Aulend;9,6393345;47,9554145;0;0;0;0
+0;Schussentalklinik Aulend;9,6348296;47,9534421;0;0;0;0
+0;Engler Geschäftshaus - Mengen;9,3332182;48,0517195;0;0;0;0
+0;Diehm Andreas;9,61685;48,01769;0;0;0;0
+0;Koch Magnus;9,6477571;48,0112029;0;0;0;0
+0;Burike;10,0057524;48,3750068;0;0;0;0
+0;Hildebrand Günter;9,6184123;47,9191;0;0;0;0
+0;Kaiser Aulendorf;9,6349;47,94393;0;0;0;0
+0;Traub Zimmerei;9,5003;48,18163;0;0;0;0
+0;Dingler - Ebersbach-Musbach;9,5805834;47,9591969;0;0;0;0
+0;Jantoon Reyers;5,4504933;43,5306199;0;0;0;0
+0;Dr. Sauter;9,62716;47,94808;0;0;0;0
+0;Stippe Neurohr Eble GbR;9,6077305;47,7864059;0;0;0;0
+0;Schönberger Rainer;9,7831392;48,0849201;0;0;0;0
+0;Steinhauser;9,6519342;48,0160507;0;0;0;0
+0;Gack Erwin - Kürnbach;9,6743311;47,990975;0;0;0;0
+0;Allianz Rutka - Bad Schussenried;9,6964042;48,028414;0;0;0;0
+0;Fiederer GbR;9,5942416;47,7529155;0;0;0;0
+0;Rodi Baustetten;9,8895537;48,2050259;0;0;0;0
+0;Gnann Kurt;9,6171151;48,0178951;0;0;0;0
+0;Diesch Anneliese - Bad Schussenried;9,66468;48,00298;0;0;0;0
+0;Dr. Lang;9,6250175;48,0036578;0;0;0;0
+0;Burike privat - Ulm;10,02908;48,43196;0;0;0;0
+0;Heidi Danner Altieri;9,647859;48,0119498;0;0;0;0
+0;Gnann Siegfried;9,61216;48,02125;0;0;0;0
+0;Britsch Georg Senj.;9,6510285;48,0030117;0;0;0;0
+0;Bernd Gnann;9,2209814;48,8261842;0;0;0;0
+0;Hamme Gnann Tacheles;8,4033964;49,0091036;0;0;0;0
+0;Schmieder - Biberach;9,8041681;48,0702659;0;0;0;0
+0;Nicole Kaiser Privat - Bad Schussenried;9,6498167;47,9995405;0;0;0;0
+0;Klaus Heller;9,645284;48,0092978;0;0;0;0
+0;Josef Hirscher;9,68371;48,0063148;0;0;0;0
+0;Christian Hirscher;9,68371;48,0063148;0;0;0;0
+0;Theobold;9,6508871;47,9232976;0;0;0;0
+0;Christian Ramsperger;9,6250103;47,9491427;0;0;0;0
+0;Fürst Schwemme;9,5866624;47,998753;0;0;0;0
+0;Steyer Hans;9,6623754;48,0039845;0;0;0;0
+0;Moser Franz;9,7939541;48,1262909;0;0;0;0
+0;Weih;9,6308726;47,9476906;0;0;0;0
+0;Freisinger;9,9678053;48,0479461;0;0;0;0
+0;Fam Hiller;9,9313083;48,2597122;0;0;0;0
+0;Kopf, Berthold - Ingerkingen;9,7651381;48,1986155;0;0;0;0
+0;Herr Pfeifer;9,6567424;48,0002899;0;0;0;0
+0;Bitterwolf;9,6429734;47,9790785;0;0;0;0
+0;Stegmeier Thomas;9,5342657;47,9348602;0;0;0;0
+0;Jochen Freitag;9,48655;47,84437;0;0;0;0
+0;Herr Hiller Allianz Biberach;9,7913491;48,0982083;0;0;0;0
+0;KB Kompletthaus;10,0150628;48,4158634;0;0;0;0
+0;Achitekturbüro Kümmerle;9,80886;48,09191;0;0;0;0
+0;Architekt Schützbach;9,6129069;48,0608238;0;0;0;0
+0;Kugler Klaus - Rosna;9,3274053;48,0054319;0;0;0;0
+0;Mayer Reiner - Ingoldingen/Degernau;9,7466773;48,0301253;0;0;0;0
+0;Diana Englsberger;10,210578;47,9897306;0;0;0;0
+0;Scheurer / Pichler;8,782168;47,7429516;0;0;0;0
+0;Frau Greisle;9,4048437;47,93925;0;0;0;0
+0;Sum / Haas;8,53373;48,28035;0;0;0;0
+0;Kaplan;9,6102495;47,8967132;0;0;0;0
+0;Schmieder Andreas - Ertingen;9,4665314;48,0996716;0;0;0;0
+0;Schneider Staig;9,9901;48,30224;0;0;0;0
+0;Ellen Benisch;8,6743938;49,9928121;0;0;0;0
+0;Wäscherei Erbach;9,8967204;48,3248567;0;0;0;0
+0;Kreativ Planungsbüro;9,5006265;48,0156675;0;0;0;0
+0;Rebecca & Christoph Stark;9,6371439;47,9841202;0;0;0;0
+0;Liebherr Flugplatz;9,7655767;48,108727;0;0;0;0
+0;Christian Haile;9,49621;48,01963;0;0;0;0
+0;Sigfried Werner;9,4335741;48,065234;0;0;0;0
+0;Mühl Charlotte & Torsten;9,5181682;47,8589955;0;0;0;0
+0;Jochen Funk - Münchenreute;9,61963;47,92332;0;0;0;0
+0;Dieter Maier;9,632155909;47,95238275;0;0;0;0
+0;Kniess Jochen;9,631834286;47,95209942;0;0;0;0
+0;Birnbaum / Beppler;9,5748881;47,912061;0;0;0;0
+0;Zademach Hansi;11,4376611;47,9562768;0;0;0;0
+0;Nicole Kaiser Geschäf - Bad Schussenried;9,6571472;48,0054236;0;0;0;0
+0;Ott Haus Zimmerei;9,43841;47,85869;0;0;0;0
+0;Funk Karl;9,66263;47,94997;0;0;0;0
+0;Holzbau Schwegler;9,6079291;47,8518952;0;0;0;0
+0;Hartmann GbR - Ingoldingen;9,74162;48,02512;0;0;0;0
+0;Kaiser Grundstück GbR - Aulendorf;9,6349;47,94393;0;0;0;0
+0;Schlossbrauerei GmbH - Aulendorf;9,638224;47,954831;0;0;0;0
+0;Schwald Martina - Aulendorf;9,6511217;47,9226101;0;0;0;0
+0;Hoftheater GbR - Baienfurt;9,6387522;47,8250199;0;0;0;0
+0;Fussenegger Wohnbau GmbH - Weingarten;9,6418163;47,8088172;0;0;0;0
+0;Stoll Alexandra - Bierstetten;9,586503;48,0072698;0;0;0;0
+0;Beuter Jestetten;8,5768209;47,6582361;0;0;0;0
