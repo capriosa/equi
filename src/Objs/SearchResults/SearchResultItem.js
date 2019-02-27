@@ -80,7 +80,7 @@ function SearchResultItem({ resultItem, q }) {
       </div>
       <div className="result-options">
         <Scrivito.LinkTag to={resultItem} className="btn btn-clear">
-          Read more
+          Mehr lesen
           <i className="fa fa-angle-right fa-4" aria-hidden="true" />
         </Scrivito.LinkTag>
       </div>

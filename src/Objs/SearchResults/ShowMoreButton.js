@@ -10,7 +10,7 @@ function ShowMoreButton({ currentMaxItems, totalCount, onClick }) {
       <br />
       <div className="text-center">
         <a className="btn btn-primary" onClick={onClick}>
-          Load more
+          Mehr laden
           <i className="fa fa-angle-right fa-4" aria-hidden="true" />
         </a>
       </div>

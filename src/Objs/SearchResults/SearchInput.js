@@ -19,13 +19,13 @@ class SearchInput extends React.Component {
               <div className="input-group">
                 <input
                   className="form-control"
-                  placeholder="Search for..."
+                  placeholder="Suchen nach ..."
                   value={this.state.q}
                   onChange={e => this.handleChange(e)}
                 />
                 <span className="input-group-btn">
                   <button className="btn btn-primary" type="submit">
-                    <span className="d-none d-sm-inline">Search again</span>
+                    <span className="d-none d-sm-inline">Suche wiederholen</span>
                     <i className="fa fa-search fa-1" aria-hidden="true" />
                   </button>
                 </span>
