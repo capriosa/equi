@@ -53,8 +53,8 @@ class SearchResultsComponent extends React.Component {
         <section className="bg-white">
           <div className="container">
             <h1 className="h2 b-bottom text-center">
-              {totalCount} Suchergebnisse
-              {totalCount !== 1 && "s"}
+              {totalCount} Suchergebniss
+              {totalCount !== 1 && "e"}
             </h1>
             <SearchResultsTagList tags={tags} params={this.props.params} />
           </div>

@@ -24,10 +24,10 @@ const PreviewImage = Scrivito.connect(({ item }) => {
 const Details = Scrivito.connect(({ item }) => {
   const details = [];
 
-  const date = item.get("publishedAt") || item.lastChanged();
+  /*const date = item.get("publishedAt") || item.lastChanged();
   if (date) {
     details.push(fromNow(date));
-  }
+  }*/
 
   const author = item.get("author");
   if (author) {
