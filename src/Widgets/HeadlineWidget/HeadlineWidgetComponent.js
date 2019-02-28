@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as Scrivito from "scrivito";
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
   const style = widget.get("style") || "h2";
@@ -18,15 +19,14 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
 
   return (
     <div>
-      <a name={anchorId} id={anchorId} />
+    <ScrollableAnchor id={anchorId}>
     <Scrivito.ContentTag
       tag={level}
       content={widget}
       attribute="headline"
       className={classNames.join(" ")}
-      id={anchorId}
-      name={anchorId}
     />
+    </ScrollableAnchor>
     </div>
   );
 });
