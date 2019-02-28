@@ -39,7 +39,7 @@ Scrivito.provideComponent('AnchorWidget', ({ widget }) => {
       <Scrivito.WidgetTag tag="li">
         <Scrivito.ContentTag
             tag="a"
-            href={ Scrivito.urlFor(link, { fragment: link.hash() }) }
+            href={ Scrivito.urlFor(link, { hash: link.hash() }) }
             content={ widget }
             attribute="link"
         >
