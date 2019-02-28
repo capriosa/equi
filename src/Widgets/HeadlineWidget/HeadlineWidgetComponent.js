@@ -19,14 +19,15 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
 
   return (
     <div>
-    <ScrollableAnchor id={anchorId}>
+    <ScrollableAnchor id={anchorId} />
+    <br/>
     <Scrivito.ContentTag
       tag={level}
       content={widget}
       attribute="headline"
       className={classNames.join(" ")}
     />
-    </ScrollableAnchor>
+
     </div>
   );
 });
