@@ -16,9 +16,7 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
   if (widget.get("showMargin") === "no") {
     classNames.push("no-margin");
   }
-  if(anchorId) {
-    classNames.push("anchor");
-  }
+
 
   return (
     <div>
@@ -29,7 +27,7 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
       attribute="headline"
       className={classNames.join(" ")}
     />
-    <ScrollableAnchor id={anchorId} ><div style={{height: '100px', backgroundColor: 'white'}}/></ScrollableAnchor>
+    <ScrollableAnchor id={anchorId} ><div style={{height: '30px', backgroundColor: 'white'}}/></ScrollableAnchor>
     </div>
   );
 });
