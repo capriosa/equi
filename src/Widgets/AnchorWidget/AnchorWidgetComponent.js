@@ -32,14 +32,16 @@ Scrivito.provideComponent('AnchorWidget', ({ widget }) => {
   // for links all other links
   // to non binary objs
   if (anchor) {
-    link._hash = anchor; // eslint-disable-line no-underscore-dangle
+    hash = anchor; // eslint-disable-line no-underscore-dangle
   }
+
+  console.log(hash.hash());
 
   return (
       <Scrivito.WidgetTag tag="li">
         <Scrivito.ContentTag
             tag="a"
-            href={ Scrivito.urlFor(link, { hash: link.hash() }) }
+            href={ Scrivito.urlFor(link, { hash: hash.hash() }) }
             content={ widget }
             attribute="link"
         >
