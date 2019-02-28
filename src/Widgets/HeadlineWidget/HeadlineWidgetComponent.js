@@ -16,18 +16,20 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
   if (widget.get("showMargin") === "no") {
     classNames.push("no-margin");
   }
+  if(anchorId) {
+    classNames.push("anchor");
+  }
 
   return (
     <div>
-    <ScrollableAnchor id={anchorId} />
-
+    <ScrollableAnchor id={anchorId} >
     <Scrivito.ContentTag
       tag={level}
       content={widget}
       attribute="headline"
       className={classNames.join(" ")}
     />
-
+    </ScrollableAnchor>
     </div>
   );
 });
