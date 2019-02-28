@@ -5,6 +5,7 @@ import InPlaceEditingPlaceholder from '../../Components/InPlaceEditingPlaceholde
 Scrivito.provideComponent('AnchorWidget', ({ widget }) => {
   const link = widget.get('link');
   const anchor = widget.get('anchor');
+  const hash = '';
 
   if (!link) {
     return (
