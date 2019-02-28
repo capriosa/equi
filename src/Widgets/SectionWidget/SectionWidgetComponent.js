@@ -19,7 +19,7 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
 
   sectionClassNames.push(`bg-${backgroundColor}`);
 
-  if (parallax === "Yes") {
+  if (parallax === "yes") {
     sectionClassNames.push("parallax");
   }
 
