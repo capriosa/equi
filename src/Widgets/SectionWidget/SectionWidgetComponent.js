@@ -1,6 +1,5 @@
 import * as React from "react";
 import * as Scrivito from "scrivito";
-import { Parallax, Background } from 'react-parallax';
 
 Scrivito.provideComponent("SectionWidget", ({ widget }) => {
   const sectionClassNames = [];
@@ -38,7 +37,7 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
   }
 
   return (
-    <Parallax>
+
     <Scrivito.BackgroundImageTag
       tag="section"
       className={sectionClassNames.join(" ")}
@@ -50,6 +49,6 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
         attribute="content"
       />
     </Scrivito.BackgroundImageTag>
-    </Parallax>
+
   );
 });
