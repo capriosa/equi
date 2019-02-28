@@ -5,7 +5,7 @@ import InPlaceEditingPlaceholder from '../../Components/InPlaceEditingPlaceholde
 Scrivito.provideComponent('AnchorWidget', ({ widget }) => {
   const link = widget.get('link');
   const anchor = widget.get('anchor');
-  const hash = '';
+
 
   if (!link) {
     return (
@@ -33,16 +33,16 @@ Scrivito.provideComponent('AnchorWidget', ({ widget }) => {
   // for links all other links
   // to non binary objs
   if (anchor) {
-    hash = anchor; // eslint-disable-line no-underscore-dangle
+    link._hash = anchor; // eslint-disable-line no-underscore-dangle
   }
 
-
+console.log(link.hash());
 
   return (
       <Scrivito.WidgetTag tag="li">
         <Scrivito.ContentTag
             tag="a"
-            href={ Scrivito.urlFor(link, { hash: hash.hash() }) }
+            href={ Scrivito.urlFor(link, { hash: anchor }) }
             content={ widget }
             attribute="link"
         >
