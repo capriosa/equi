@@ -20,7 +20,7 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
   return (
     <div>
     <ScrollableAnchor id={anchorId} />
-    <br/>
+
     <Scrivito.ContentTag
       tag={level}
       content={widget}
