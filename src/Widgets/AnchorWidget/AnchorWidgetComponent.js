@@ -36,7 +36,7 @@ Scrivito.provideComponent('AnchorWidget', ({ widget }) => {
     hash = anchor; // eslint-disable-line no-underscore-dangle
   }
 
-  console.log(hash.hash());
+
 
   return (
       <Scrivito.WidgetTag tag="li">
