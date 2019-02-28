@@ -573,6 +573,10 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
     background-attachment: fixed !important;
 }
 
+.anchor {
+    margin-top: 60px;
+}
+
 
 @media (max-width: $screen-xs-max) {
   .bg-dark-image,
