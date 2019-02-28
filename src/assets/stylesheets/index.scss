@@ -560,7 +560,7 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
 .bg-greymiddle,
 .bg-greywhite,
 .bg-white {
-background-attachment: fixed !important;
+
   &.medium-height {
     min-height: 300px;
   }
@@ -568,6 +568,12 @@ background-attachment: fixed !important;
     min-height: 150px;
   }
 }
+
+.parallax {
+    background-attachment: fixed !important;
+}
+
+
 @media (max-width: $screen-xs-max) {
   .bg-dark-image,
   .bg-grey,
