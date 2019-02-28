@@ -1,7 +1,7 @@
 import * as Scrivito from 'scrivito';
 
 Scrivito.provideEditingConfig('AnchorWidget', {
-  title: 'Link List item',
+  title: 'Anchor Link',
   attributes: {
     link: {
       title: 'Link',
