@@ -17,11 +17,11 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
     classNames.push("no-margin");
   }
 
-
+console.log(anchorId);
   return (
     <div>
 
-    {anchorId === 'yes' ? <ScrollableAnchor id={anchorId} ><div style={{height: '1px'}}/></ScrollableAnchor> : null}
+    {anchorId ? <ScrollableAnchor id={anchorId} ><div style={{height: '1px'}}/></ScrollableAnchor> : null}
     <Scrivito.ContentTag
       tag={level}
       content={widget}
