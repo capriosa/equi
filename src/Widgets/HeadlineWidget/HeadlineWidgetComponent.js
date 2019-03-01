@@ -21,7 +21,7 @@ Scrivito.provideComponent("HeadlineWidget", ({ widget }) => {
   return (
     <div>
 
-    {{anchorId} && <ScrollableAnchor id={anchorId} ><div style={{height: '1px', backgroundColor: 'white'}}/></ScrollableAnchor>}
+    {anchorId === 'yes' ? <ScrollableAnchor id={anchorId} ><div style={{height: '1px'}}/></ScrollableAnchor> : null}
     <Scrivito.ContentTag
       tag={level}
       content={widget}
