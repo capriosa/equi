@@ -4869,9 +4869,9 @@ ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
-mulando-equimap@^0.3.0:
-  version "0.3.0"
-  resolved "https://npm-proxy.fury.io/jscheid/~/d/mulando-equimap/mulando-equimap-0.3.0#c969e8565489c35a3ca2c22e52a6ac88a22f512d"
+mulando-equimap@^0.4.0:
+  version "0.4.0"
+  resolved "https://npm-proxy.fury.io/jscheid/~/d/mulando-equimap/mulando-equimap-0.4.0#144798cdd68f1f452d0100516e7639da9a346121"
   dependencies:
     mapbox-gl "^0.53.0"
     react "^16.3.1"
