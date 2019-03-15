@@ -48,7 +48,7 @@
     "mapbox-gl": "^0.53.0",
     "mini-css-extract-plugin": "^0.5.0",
     "moment-from-now": "0.0.4",
-    "mulando-equimap": "^0.5.0",
+    "mulando-equimap": "^0.7.0",
     "node-sass": "^4.11.0",
     "papaparse": "^4.6.3",
     "prettier": "^1.15.3",
